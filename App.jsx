@@ -1,13 +1,13 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import React from 'react';
-import HomeScreen from './src/screens/HomeScreen';
-import TextInputField from './src/components/TextInput/TextInputField';
+import Styling from './src/components/Styling/Styling';
 
 const App = () => {
   return (
     <View>
       {/* <HomeScreen /> */}
-      <TextInputField />
+      {/* <TextInputField /> */}
+      <Styling />
     </View>
   );
 };
